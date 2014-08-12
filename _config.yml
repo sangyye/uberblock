@@ -1,0 +1,19 @@
+# Site settings
+title: The Uberblock
+name: "Christian Vervoorts"
+email: mail@uberblock.de
+about_me: "System-Administrator at "
+description: "Uberblock is a little blog, about programming, servers and unix. I will review some things, write some HowTos and make a rant or two."
+baseurl: ""
+url: "http://uberblock.de"
+twitter_username:  sangyye
+github_username:   sangyye
+tumblr_username:   sangyye
+
+# Build settings
+markdown: kramdown
+permalink: /:year/:month/:day/:title/
+
+# Add plugins
+gems:
+  - jekyll-sitemap
