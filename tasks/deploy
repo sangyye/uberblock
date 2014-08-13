@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+jekyll build && rsync -avz --delete _site/ gauss:/var/www/uberblock.de/html

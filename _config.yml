@@ -14,6 +14,8 @@ tumblr_username:   sangyye
 markdown: kramdown
 permalink: /:year/:month/:day/:title/
 
+exclude: [tasks]
+
 # Add plugins
 gems:
   - jekyll-sitemap
