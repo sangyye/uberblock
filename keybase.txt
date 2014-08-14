@@ -1,0 +1,80 @@
+==================================================================
+https://keybase.io/sangyye
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://uberblock.de
+  * I am sangyye (https://keybase.io/sangyye) on keybase.
+  * I have a public key with fingerprint 8D68 3416 7876 87B5 5B04  A28C 
+147D BED6 B0F1 44BF
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "client": {
+            "name": "keybase.io node.js client",
+            "version": "0.4.14"
+        },
+        "key": {
+            "fingerprint": "8d683416787687b55b04a28c147dbed6b0f144bf",
+            "host": "keybase.io",
+            "key_id": "147DBED6B0F144BF",
+            "uid": "432dfadbdda6ba30eee6617011005300",
+            "username": "sangyye"
+        },
+        "merkle_root": {
+            "ctime": 1408048332,
+            "hash": 
+"d5e58eb4382d10a86ee98c8cc1f4bfd0190ab9e3ae02f55c3507e9f978e18df6c480ba01e5030ae6df18a967234f6b9562aa75fe6c05e775e8eb0d3a442a8d23",
+            "seqno": 37888
+        },
+        "service": {
+            "hostname": "uberblock.de",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1408048455,
+    "expire_in": 157680000,
+    "prev": 
+"bafc366dfb1e123864daa77012035bdd8cb39692f7f4b2329067cf2162e7c06b",
+    "seqno": 9,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG v2
+
+owFVUltoHFUY3mRNapVCpRVtk2ocul6T9Zw5lzmz0hTTNRavUAkaoa7nzPlnd8x2
+ZjOzSbsssRRbNb4oYgvS4kMNvVC10otUqSmIoDZ5EpEaGipCa0XyUCnequiZGNGe
+pznzf//3f9//ndeWZDOtLcvHJr9+/1LxVMvUDyrzxNyqB5uWinTDKjQtrxpAWE+/
+QrkJrII1BA0lE8gHUVcYacg/l3QtYLqtUYiTIAoNCuVpHlNrrDvFp91+EJYhrsVB
+SmYJzQWhmDvC4cJRjClEpS08TB2tQHOFfEyp8g1nJUrqV4215jlLgTZ/Db7Y90CR
+96F+g+/rN7WR+QIltvalVlpLriRBAMA5dhDGCDGCUApMIF7wlMiw3GhAKncTxENV
+KMVRNG/aqwcpAlMkEBWE2EaQTCqmRzNgAhQlwtYYScEBXOEJz8O+Ea4RdpFULhAJ
+yPYZ8whDDri+6wjAQvvcowIpiTAwRJAErn0spMsdm1CfK5dxW0qH+cA9xMBxGJhh
+SBNJqS2FtolxkMBwGFkF4gghxtJrPBp4kMpOl7bgbURBrKqRN5TXYHpqcVSPvKhq
+KpV6vVZIPdcbtRS5GVQpeecfkpIKQm0i+3+o2ECv3gdlrNuCLbUghlKQIpiJE5mT
+zoFRw6mk7xFuzCkM2CaCU21smRxsRJhJR3iKuNy1fcdszSa2i7jj+TbmNjge4uo/
+l67RKctpWEE5lPWR2MQ13tJ5TaalNdPe1pq+2sx1i5f++5TveXTRXxtPLO14afcf
+a345+M33PZ0vrLrt1+GPuN4w8MzDzXfx2a+mNm8N+3e9+KV74qbeZtuKbTfc8fJs
+Y+XkjiVhPfvKk5nBA9M/bRwdOD/Rk+uZnJlqb558u1083fFb7kpX7r37j+0889lj
+e9Z8nu2np2/Z+vhcdu3kzLqHku27vjt/adnAMTFzfO8h6Dj8bfHPws7LXzx75ebL
+ba+fbp27sOfTbU+NrFh7/cXqq0fIme1x5YMfJ9rO9b71SaaS+/CNu2/tPDmsitnB
+sxeWjdv69unBnw+t3ruS7bh2YvboqX3JjRvWDRzZt/+R9feVq+svZg4PbTm3+kD0
+e7Z25+yb1emKHGe53o8PAiymdz1/7/6/AQ==
+=QdEq
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/sangyye
+
+==================================================================
+
