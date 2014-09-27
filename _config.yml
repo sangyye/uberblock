@@ -16,6 +16,15 @@ permalink: /:year/:month/:day/:title/
 
 exclude: [tasks, README.md]
 
+jekyll-archives:
+  layouts:
+    year: archive-year
+    month: archive-month
+  enabled:                         
+    - year
+    - month
+
 # Add plugins
 gems:
   - jekyll-sitemap
+  - jekyll-archives
