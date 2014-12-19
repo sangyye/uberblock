@@ -2,7 +2,7 @@
 title: The Uberblock
 name: "Christian Vervoorts"
 email: mail@uberblock.de
-about_me: "System-Administrator at "
+about_me: "System-Administrator with fable for BSD"
 description: "Uberblock is a little blog, about programming, servers and unix. I will review some things, write some HowTos and make a caffeine injected rant or two."
 baseurl: ""
 url: "http://uberblock.de"
@@ -14,7 +14,7 @@ tumblr_username:   sangyye
 markdown: kramdown
 permalink: /:year/:month/:day/:title/
 
-exclude: [tasks, README.md]
+exclude: [tasks, README.md, Gemfile]
 
 jekyll-archives:
   layouts:
