@@ -13,4 +13,4 @@ When I'm not behind a computer (yes, this is possible, sometimes), I enjoy playi
 
 Also I have a [German blog](https://sangyye.de), more about private and German topics and less technical. 
 
-This blog is complete build with [jekyll](http://jekyllrb.com/). For the social icons [Font Awesome](https://fortawesome.github.io/Font-Awesome/) was used. This blog is served by [nginx](http://nginx.org). Thanks, to Jekyll, no database and dynamic code is used on the server site. You can find the source code on [github](https://github.com/sangyye/uberblock).
+This blog is complete build with [jekyll](http://jekyllrb.com/). For the social icons [Font Awesome](https://fortawesome.github.io/Font-Awesome/) was used. This blog is served by the awesome [uberspace.de](https://uberspace.de). Thanks, to Jekyll, no database and dynamic code is used on the server site. You can find the source code on [github](https://github.com/sangyye/uberblock).
