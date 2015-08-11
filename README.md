@@ -1,6 +1,8 @@
 # This is the data of my Blog
 
-This is the github repo to my of [Blog](http://uberblock.de). 
+[![Build Status](https://travis-ci.org/sangyye/uberblock.svg?branch=master)](https://travis-ci.org/sangyye/uberblock)
+
+This is the github repo to my of [Blog](http://uberblock.de).
 
 # License
 
