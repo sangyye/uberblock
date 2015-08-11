@@ -4,7 +4,7 @@ cache: bundler
 rvm:
 - 2.2.2
 install: bundle install
-script: bundle exec rake site:deploy
+script: bundle exec rake site:travis
 env:
   global:
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
