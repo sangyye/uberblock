@@ -14,7 +14,7 @@ tumblr_username:   sangyye
 markdown: kramdown
 permalink: /:year/:month/:day/:title/
 
-exclude: [README.md, Gemfile, Rakefile]
+exclude: [README.md, Gemfile, Rakefile, deploy_key.enc, deploy_key]
 
 jekyll-archives:
   layouts:
