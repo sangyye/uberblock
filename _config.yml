@@ -24,6 +24,14 @@ jekyll-archives:
     - year
     - month
 
+# Rake settings
+post:
+  template: _post.txt
+  extension: md
+page:
+  template: _page.txt
+  extension: md
+
 # Add plugins
 gems:
   - jekyll-sitemap
