@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Build, Test and Deploy Jekyll with Travis
-date: 2015-08-13 16:30:00 +02:00
+date: 2015-08-13 16:30:00 +0200
 published: true
 categories: []
 tags: [jekyll, howto, travis]
@@ -71,7 +71,7 @@ namespace :site do
 end
 {% endhighlight %}
 
-You can now call a `rake site:test` to run your test locally and see if it will work. I also add an line that will not make any deployments on a push request. So if you work in a team, every request will be build and tested but not deployed. If you need more branches than I do you have to ignore them in the deployment. A SSH Key will be needed if you want to deploy via rsync, it's more secure that way and also travis support it. Run `ssh-keygen -t rsa -f deploy_key` to generate a file deploy_key and deploy_key.pub in the repo root. Generate it without password and add them to the `.gitignore`. Don't ever add the private key to your repo and also exclude it in your `_config.yml` just to make sure it will not end on your server. You need the travis commando suit to encrypt the the private ssh key for travis. Run `gem install travis` to get it. With `travis login` you login into your Github account to get the needed secrets for you repo, than with `travis encrypt-file deploy_key` you generate the deploy_key.enc that you have to add to the repo. Also you get an line that you have to add to the `.travis.yml. It will look like this:
+You can now call a `rake site:test` to run your test locally and see if it will work. I also add an line that will not make any deployments on a push request. So if you work in a team, every request will be build and tested but not deployed. If you need more branches than I do you have to ignore them in the deployment. A SSH Key will be needed if you want to deploy via rsync, it's more secure that way and also travis support it. Run `ssh-keygen -t rsa -f deploy_key` to generate a file deploy_key and deploy_key.pub in the repo root. Generate it without password and add them to the `.gitignore`. Don't ever add the private key to your repo and also exclude it in your `_config.yml` just to make sure it will not end on your server. You need the travis commando suit to encrypt the the private ssh key for travis. Run `gem install travis` to get it. With `travis login` you login into your Github account to get the needed secrets for you repo, than with `travis encrypt-file deploy_key` you generate the deploy_key.enc that you have to add to the repo. Also you get an line that you have to add to the `.travis.yml`. It will look like this:
 
 {% highlight yaml %}
 language: ruby
