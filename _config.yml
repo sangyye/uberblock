@@ -1,7 +1,8 @@
 # Site settings
-title: The Uberblock
-name: "Christian Vervoorts"
-email: mail@uberblock.de
+name: The Uberblock
+author:
+  name: "Christian Vervoorts"
+  email: mail@uberblock.de
 about_me: "System-Administrator with a penchant for FreeBSD"
 description: "Uberblock is a little blog, about programming, servers and unix. I will review some things, write some HowTos and make a caffeine injected rant or two."
 baseurl: ""
@@ -36,3 +37,4 @@ page:
 gems:
   - jekyll-sitemap
   - jekyll-archives
+  - jekyll-feed
