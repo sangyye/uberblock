@@ -3,3 +3,4 @@ _drafts
 Gemfile.lock
 deploy_key
 deploy_key.pub
+.jekyll-metadata

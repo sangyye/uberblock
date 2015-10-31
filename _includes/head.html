@@ -1,8 +1,8 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>{% if page.template == 'archive-year' %}{{ page.title | date: "%Y" }} - {{ site.name }}
-      {% elsif page.template == 'archive-month' %}{{ page.title | date: "%B %Y" }} - {{ site.name }}
+    <title>{% if page.template == 'archive-year' %}Archive {{ page.date | date: "%Y" }} - {{ site.name }}
+      {% elsif page.template == 'archive-month' %}Archive {{ page.date | date: "%B %Y" }} - {{ site.name }}
       {% elsif page.title %}{{ page.title }}
       {% else %}{{ site.name }}
       {% endif %}</title>
