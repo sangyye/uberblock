@@ -33,8 +33,13 @@ page:
   template: _page.txt
   extension: md
 
+# seo-jekyll-tag
+twitter:
+  username: sangyye
+
 # Add plugins
 gems:
   - jekyll-sitemap
   - jekyll-archives
   - jekyll-feed
+  - jekyll-seo-tag
