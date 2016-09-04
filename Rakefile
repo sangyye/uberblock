@@ -3,7 +3,7 @@ require 'rake'
 require 'yaml'
 require 'fileutils'
 require 'rbconfig'
-require 'html/proofer'
+require 'html-proofer'
 
 # == Configuration =============================================================
 
@@ -100,7 +100,7 @@ namespace :post do
     content = read_file(template)
     create_file(POSTS, filename, content, title, editor)
   end
-  
+
   # rake draft["Title"]
   desc "Create a post in _drafts"
   task :draft, :title do |t, args|
@@ -113,7 +113,7 @@ namespace :post do
     content = read_file(template)
     create_file(DRAFTS, filename, content, title, editor)
   end
-  
+
   # rake publish
   desc "Move a post from _drafts to _posts"
   task :publish do
@@ -132,7 +132,7 @@ namespace :post do
       puts "Please choose a draft by the assigned number."
     end
   end
-  
+
   # rake page["Title"]
   # rake page["Title","Path/to/folder"]
   desc "Create a page (optional filepath)"
@@ -162,10 +162,10 @@ end
 
 namespace :site do
   desc 'build and test the site'
-  task :test => 'site:build' do 
-    HTML::Proofer.new("./_site", {:disable_external => true, :check_html => true}).run
+  task :test => 'site:build' do
+    HTMLProofer.check_directory("./_site", {:disable_external => true, :check_html => true}).run
   end
-  
+
   desc "Generate the site"
   task :build do
     sh "bundle exec jekyll build"
