@@ -1,0 +1,50 @@
+<footer class="site-footer">
+
+  <div class="wrap">
+
+    <h2 class="footer-heading">{{ .Site.Title }}</h2>
+
+    <div class="footer-col-1 column">
+      <ul>
+        <li>{{ .Site.Author.name }}</li>
+        <li>{{ .Site.Author.about_me}}</li>
+        <li><a href="mailto:{{ .Site.Author.email }}">{{ .Site.Author.email }}</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col-2 column">
+      <ul>
+        <li>
+          <a href="{{ .RSSLink }}">
+            <span class="fa fa-rss fa-lg fa-fw"></span>
+            <span class="username">RSS</span>
+          </a>
+        </li>
+        {{ if isset .Site.Params "github_username" }}<li>
+          <a href="https://github.com/{{ .Site.Params.github_username }}">
+            <span class="fa fa-github fa-lg fa-fw"></span>
+            <span class="username">Github</span>
+          </a>
+        </li>{{ end }}
+        {{ if isset .Site.Params "twitter_username" }}<li>
+          <a href="https://twitter.com/{{ .Site.Params.twitter_username }}">
+            <span class="fa fa-twitter fa-lg fa-fw"></span>
+            <span class="username">Twitter</span>
+          </a>
+        </li>{{ end }}
+        {{ if isset .Site.Params "tumblr_username" }}<li>
+          <a href="http://{{ .Site.Params.tumblr_username }}.tumblr.com/">
+            <span class="fa fa-tumblr fa-lg fa-fw"></span>
+            <span class="username">Tumblr</span>
+          </a>
+        </li>{{ end }}
+      </ul>
+    </div>
+
+    <div class="footer-col-3 column">
+      <p class="text">{{ .Site.Params.description }}</p>
+    </div>
+
+  </div>
+
+</footer>

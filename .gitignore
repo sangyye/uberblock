@@ -1,5 +1,4 @@
-_site
 _drafts
+public
 deploy_key
 deploy_key.pub
-.jekyll-metadata

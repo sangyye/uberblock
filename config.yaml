@@ -1,0 +1,17 @@
+baseurl: http://uberblock.de
+disablePathToLower: true
+languageCode: en-us
+title: The Uberblock
+permalinks:
+  post: /:year/:month/:day/:title/
+  page: /:filename/
+author:
+  name: "Christian Vervoorts"
+  email: mail@uberblock.de
+  about_me: "System-Administrator with a penchant for FreeBSD"
+params:
+  description: "Uberblock is a little blog, about programming, servers and unix. I will review some things, write some HowTos and make a caffeine injected rant or two."
+  twitter_username:  sangyye
+  github_username:   sangyye
+  tumblr_username:   sangyye
+...
