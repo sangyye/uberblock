@@ -1,7 +1,8 @@
 language: go
-sudo: false
 install: go get -v github.com/spf13/hugo
-script: hugo
+script:
+  - sudo pip install Pygments
+  - hugo
 before_install:
 - echo -e "Host peacock.uberspace.de\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
 - openssl aes-256-cbc -K $encrypted_7aef735ff37c_key -iv $encrypted_7aef735ff37c_iv -in deploy_key.enc -out deploy_key -d
