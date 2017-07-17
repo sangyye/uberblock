@@ -39,7 +39,7 @@ twitter:
   username: sangyye
 
 # Add plugins
-gems:
+plugins:
   - jekyll-sitemap
   - jekyll-archives
   - jekyll-feed
